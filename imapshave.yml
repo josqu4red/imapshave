@@ -1,0 +1,12 @@
+---
+:server: imap.example.com
+:ssl: true
+:user: foo.bar@example.com
+:pass: s3cur3p4ss
+:folders:
+  Nagios:
+    :keep: 7
+    :skip_flagged: true
+  Chef:
+    :keep: 1
+    :skip_flagged: false
